@@ -13,9 +13,13 @@ public class assignment {
 // v3 *= 5;
 // System.out.println(v3); 
 
-int v4 = 10;
-v4 /=2;
-System.out.println(v4);
+// int v4 = 10;
+// v4 /=2;
+// System.out.println(v4);
+
+int v5 =5;
+v5 %= 3;
+System.out.println(v5);
 
 
    }
