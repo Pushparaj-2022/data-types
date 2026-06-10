@@ -17,9 +17,9 @@ public class assignment {
 // v4 /=2;
 // System.out.println(v4);
 
-int v5 =5;
-v5 %= 3;
-System.out.println(v5);
+// int v5 =5;
+// v5 %= 3;
+// System.out.println(v5);
 
 
    }
