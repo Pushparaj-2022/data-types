@@ -20,7 +20,10 @@ public class assignment {
 // int v5 =5;
 // v5 %= 3;
 // System.out.println(v5);
+ int v6 = 5;
+ v6 &=1;
 
-
+ System.out.println(v6);
+ 
    }
 }
