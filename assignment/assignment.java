@@ -20,8 +20,8 @@ public class assignment {
 // int v5 =5;
 // v5 %= 3;
 // System.out.println(v5);
- int v6 = 5;
- v6 &=3;
+ int v6 = 25;
+ v6 &=30;
 
  System.out.println(v6);
  
