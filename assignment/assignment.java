@@ -24,8 +24,8 @@ public class assignment {
 //  v6 &=30;
 
 //  System.out.println(v6);
- int v6 = 30;
- v6 &=40;
+ int v6 = 50;
+ v6 &=60;
 
  System.out.println(v6);
  
