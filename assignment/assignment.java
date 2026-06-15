@@ -37,9 +37,13 @@ public class assignment {
 // v8 ^= 3;
 // System.out.println(v8);
 
-int v9 = 10;
-v9 >>= 2;
-System.out.println(v9);
+// int v9 = 10;
+// v9 >>= 2;
+// System.out.println(v9);
+
+int v10 = 10;
+v10 <<= 3;
+System.out.println(v10);
 
    }
 }
