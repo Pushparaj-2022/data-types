@@ -39,11 +39,17 @@ public class assignment {
 
 // int v9 = 10;
 // v9 >>= 2;
-// System.out.println(v9);
+// System.out.println(v9 >>= 1);
+// System.out.println(v9 >>= 2);
+// System.out.println(v9 >>= 3);
+// System.out.println(v9 >>= 4);
 
 int v10 = 10;
-v10 <<= 3;
-System.out.println(v10);
+// v10 <<= 3;
+System.out.println(v10 <<= 1);
+System.out.println(v10 <<= 2);
+System.out.println(v10 <<= 3);
+System.out.println(v10 <<= 4);
 
    }
 }
