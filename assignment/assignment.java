@@ -24,10 +24,13 @@ public class assignment {
 //  v6 &=30;
 
 //  System.out.println(v6);
- int v6 = 50;
- v6 &=60;
+//  int v6 = 50;
+//  v6 &=60;
 
- System.out.println(v6);
+//  System.out.println(v6);
  
+int v7 = 5;
+v7 |= 3;
+System.out.println(v7);
    }
 }
