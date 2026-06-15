@@ -29,8 +29,13 @@ public class assignment {
 
 //  System.out.println(v6);
  
-int v7 = 5;
-v7 |= 3;
-System.out.println(v7);
+// int v7 = 5;
+// v7 |= 3;
+// System.out.println(v7);
+
+int v8 =5;
+v8 ^= 3;
+System.out.println(v8);
+
    }
 }
