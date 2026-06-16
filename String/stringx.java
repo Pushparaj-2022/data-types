@@ -13,5 +13,9 @@ public class stringx{
 // System.out.println(upper.toLowerCase());
 
 
+String upper= "Java counts positions from zero";
+System.out.println(upper.indexOf("z"));
+
+
     }
 }
