@@ -5,8 +5,13 @@ public class stringx{
 // System.out.println(letters.length());
 
 
-String upper= "pattasu balu";
-System.out.println(upper.toUpperCase());
+// String upper= "pattasu balu";
+// System.out.println(upper.toUpperCase());
+
+
+// String upper= "BOMB BALU";
+// System.out.println(upper.toLowerCase());
+
 
     }
 }
