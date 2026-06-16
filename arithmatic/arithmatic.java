@@ -14,13 +14,20 @@ public class arithmatic {
         // System.out.println(inc);
         // --inc;
         // System.out.println(inc);
-        int p = 5;
+        // int p = 5;
 
-        ++p;
-        ++p;
-        ++p;
-        System.out.println(p);
-        --p;
-        System.out.println(p);
+        // ++p;
+        // ++p;
+        // ++p;
+        // System.out.println(p);
+        // --p;
+        // System.out.println(p);
+
+        int x = 5;
+        int y = 5;
+
+        System.out.println(x + y * 5);
+        System.out.println((x + y) * 5);
+
     }
 }
