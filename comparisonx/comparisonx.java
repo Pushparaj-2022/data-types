@@ -19,9 +19,9 @@ public class comparisonx {
         // int b = 10;
         // System.out.println(a >= b);
 
-        int x = 10;
-        int y =20;
-        System.out.println(x > y);
+        // int x = 10;
+        // int y =20;
+        // System.out.println(x > y);
 
         // int age = 18;
         // System.out.println(age < 18);
