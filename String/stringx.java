@@ -23,5 +23,7 @@ public class stringx {
         String name = "pattasu balu \"bomb  pakkiri\"";
 
         System.out.println(name);
+
+        
     }
 }
