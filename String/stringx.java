@@ -16,12 +16,12 @@ public class stringx {
         // String upper = "Helo world";
         // System.out.println(upper.charAt(1));
 
-      String firstname= "pattasu";
-      String lastname= " balu";
-      System.out.println(firstname. concat( lastname ));
+        // String firstname= "pattasu";
+        // String lastname= " balu";
+        // System.out.println(firstname. concat( lastname ));
 
+        String name = "pattasu balu \"bomb  pakkiri\"";
 
-
-
+        System.out.println(name);
     }
 }
