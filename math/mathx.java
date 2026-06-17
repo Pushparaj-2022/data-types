@@ -11,7 +11,9 @@ public class mathx {
 
         // System.out.println(Math.abs(-20.7));
 
-        System.out.println(Math.pow(2, 10));
+        // System.out.println(Math.pow(2, 10));
+
+        System.out.println(Math.round(4.5));
 
 
 
