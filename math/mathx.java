@@ -13,11 +13,15 @@ public class mathx {
 
         // System.out.println(Math.pow(2, 10));
 
-        System.out.println(Math.round(4.5));
-        System.out.println(Math.ceil(4.5));
-        System.out.println(Math.floor(4.5));
+        // System.out.println(Math.round(4.5));
+        // System.out.println(Math.ceil(4.5));
+        // System.out.println(Math.floor(4.5));
 
+        // int x = (int) (Math.random() * 100);
 
+        // System.out.println(x);
+
+        
 
     }
 }
