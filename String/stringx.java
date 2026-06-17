@@ -13,8 +13,15 @@ public class stringx {
         // String upper= "Java counts positions from zero";
         // System.out.println(upper.indexOf("z"));
 
-        String upper = "Helo world";
-        System.out.println(upper.charAt(1));
+        // String upper = "Helo world";
+        // System.out.println(upper.charAt(1));
+
+      String firstname= "pattasu";
+      String lastname= " balu";
+      System.out.println(firstname. concat( lastname ));
+
+
+
 
     }
 }
