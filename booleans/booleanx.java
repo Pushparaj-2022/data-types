@@ -20,7 +20,14 @@ public class booleanx {
         int myage = 20;
         int votingAge =18;
         boolean voting = myage >= votingAge;
-        System.out.println(voting);
+         
+
+        if (voting){
+            System.out.println("You're Eligible to vote ");
+
+        }else{
+            System.out.println("You're not Eligible to Vote");
+        }
 
     }
 }
