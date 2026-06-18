@@ -17,17 +17,28 @@ public class booleanx {
         // System.out.println(xy);
 
 
-        int myage = 20;
-        int votingAge =18;
-        boolean voting = myage >= votingAge;
+        // int myage = 20;
+        // int votingAge =18;
+        // boolean voting = myage >= votingAge;
          
+        // if (voting){
+        //     System.out.println("You're Eligible to vote ");
 
-        if (voting){
-            System.out.println("You're Eligible to vote ");
+        // }else{
+        //     System.out.println("You're not Eligible to Vote");
+        // }
 
-        }else{
-            System.out.println("You're not Eligible to Vote");
-        }
+
+ boolean ifRain = true;
+ boolean  ifNot= false;
+
+
+ if (ifRain || ifNot){
+     System.out.println("Bring out an umbrella");
+ }else {
+     System.out.println("Do nothing");
+ }
+
 
     }
 }
