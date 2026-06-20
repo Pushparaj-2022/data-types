@@ -29,15 +29,24 @@ public class booleanx {
         // }
 
 
- boolean ifRain = true;
- boolean  ifNot= false;
+//  boolean ifRain = true;
+//  boolean  ifNot= false;
 
 
- if (ifRain || ifNot){
-     System.out.println("Bring out an umbrella");
- }else {
-     System.out.println("Do nothing");
- }
+//  if (ifRain || ifNot){
+//      System.out.println("Bring out an umbrella");
+//  }else {
+//      System.out.println("Do nothing");
+//  }
+
+boolean rain = false;
+
+if (rain){
+    System.out.println("Bring an Umbrella");
+
+}else{
+    System.out.println("Do Nothing ");
+}
 
 
     }
