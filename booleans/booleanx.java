@@ -16,38 +16,38 @@ public class booleanx {
         // boolean xy = x >= y;
         // System.out.println(xy);
 
-
         // int myage = 20;
         // int votingAge =18;
         // boolean voting = myage >= votingAge;
-         
+
         // if (voting){
-        //     System.out.println("You're Eligible to vote ");
+        // System.out.println("You're Eligible to vote ");
 
         // }else{
-        //     System.out.println("You're not Eligible to Vote");
+        // System.out.println("You're not Eligible to Vote");
         // }
 
+        // boolean ifRain = true;
+        // boolean ifNot= false;
 
-//  boolean ifRain = true;
-//  boolean  ifNot= false;
+        // if (ifRain || ifNot){
+        // System.out.println("Bring out an umbrella");
+        // }else {
+        // System.out.println("Do nothing");
+        // }
 
+        int rain = 2;
 
-//  if (ifRain || ifNot){
-//      System.out.println("Bring out an umbrella");
-//  }else {
-//      System.out.println("Do nothing");
-//  }
+        if (rain == 1) {
+            System.out.println("Bring an Umbrella");
 
-boolean rain = false;
-
-if (rain){
-    System.out.println("Bring an Umbrella");
-
-}else{
-    System.out.println("Do Nothing ");
-}
-
+        }else if(rain == 2){
+            System.out.println("dance and enjoy the rain ");
+        } 
+        
+        else {
+            System.out.println("Do Nothing ");
+        }
 
     }
 }
