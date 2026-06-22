@@ -72,7 +72,7 @@ public class booleanx {
 
         boolean log = true;
         boolean admin = false;
-        int securitykey = 2;
+        int securitykey = 1;
 
         if (log && (admin || securitykey <= 2)) {
             System.out.println("Access granted");
