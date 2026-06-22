@@ -49,10 +49,30 @@ public class booleanx {
         // System.out.println("Do Nothing ");
         // }
 
-        int age = 20;
-        String result;
-        result = (age <= 18) ? "Good day" : "Good Morning";
-        System.out.println(result);
+        // int age = 20;
+        // String result;
+        // result = (age <= 18) ? "Good day" : "Good Morning";
+        // System.out.println(result);
+
+      int age = 20;
+      boolean nationality = false;
+
+
+      if (age >=18){
+         System.out.println("You're eligible to vote");
+         if (nationality){
+            System.out.println("You're indian and eligible to vote");
+
+         }else{
+            System.out.println("but you are not indian national");
+        
+         }
+      }else {
+        System.out.println("you're not eligible to vote");
+      }
+
+
+
 
     }
 }
