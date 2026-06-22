@@ -36,18 +36,23 @@ public class booleanx {
         // System.out.println("Do nothing");
         // }
 
-        int rain = 2;
+        // int rain = 2;
 
-        if (rain == 1) {
-            System.out.println("Bring an Umbrella");
+        // if (rain == 1) {
+        // System.out.println("Bring an Umbrella");
 
-        }else if(rain == 2){
-            System.out.println("dance and enjoy the rain ");
-        } 
-        
-        else {
-            System.out.println("Do Nothing ");
-        }
+        // }else if(rain == 2){
+        // System.out.println("dance and enjoy the rain ");
+        // }
+
+        // else {
+        // System.out.println("Do Nothing ");
+        // }
+
+        int age = 20;
+        String result;
+        result = (age <= 18) ? "Good day" : "Good Morning";
+        System.out.println(result);
 
     }
 }
