@@ -54,25 +54,31 @@ public class booleanx {
         // result = (age <= 18) ? "Good day" : "Good Morning";
         // System.out.println(result);
 
-      int age = 20;
-      boolean nationality = false;
+        // int age = 20;
+        // boolean nationality = false;
 
+        // if (age >=18){
+        // System.out.println("You're eligible to vote");
+        // if (nationality){
+        // System.out.println("You're indian and eligible to vote");
 
-      if (age >=18){
-         System.out.println("You're eligible to vote");
-         if (nationality){
-            System.out.println("You're indian and eligible to vote");
+        // }else{
+        // System.out.println("but you are not indian national");
 
-         }else{
-            System.out.println("but you are not indian national");
-        
-         }
-      }else {
-        System.out.println("you're not eligible to vote");
-      }
+        // }
+        // }else {
+        // System.out.println("you're not eligible to vote");
+        // }
 
+        boolean log = true;
+        boolean admin = false;
+        int securitykey = 2;
 
-
-
+        if (log && (admin || securitykey <= 2)) {
+            System.out.println("Access granted");
+        } else {
+            System.out.println("Acess Denied");
+        }
     }
+
 }
