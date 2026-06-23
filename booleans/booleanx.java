@@ -70,9 +70,9 @@ public class booleanx {
         // System.out.println("you're not eligible to vote");
         // }
 
-        boolean log = true;
-        boolean admin = false;
-        int securitykey = 2;
+        // boolean log = true;
+        // boolean admin = false;
+        // int securitykey = 2;
 
         // if (log && (admin || securitykey <= 2)) {
         // System.out.println("Access granted");
