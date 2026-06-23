@@ -70,15 +70,24 @@ public class booleanx {
         // System.out.println("you're not eligible to vote");
         // }
 
-        boolean log = true;
-        boolean admin = false;
-        int securitykey = 2;
+        // boolean log = true;
+        // boolean admin = false;
+        // int securitykey = 2;
 
-        if (log && (admin || securitykey <= 2)) {
-            System.out.println("Access granted");
-        } else {
-            System.out.println("Acess Denied");
+        // if (log && (admin || securitykey <= 2)) {
+        // System.out.println("Access granted");
+        // } else {
+        // System.out.println("Acess Denied");
+        // }
+
+        int num = 5;
+        if (num % 2 == 0) {
+            System.out.println(num + "  is even");
+
+        }else {
+            System.out.println(num + " is odd");
         }
+
     }
 
 }
