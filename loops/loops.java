@@ -8,18 +8,18 @@ public class loops {
         // System.out.println(i);
         // i++;
         // }
-        int choice = 2;
-        Scanner scanner = new Scanner(System.in);
+        // int choice = 2;
+        // Scanner scanner = new Scanner(System.in);
 
-        while (choice != 4) {
-            System.out.println("1. Deposit");
-            System.out.println("2. Withdraw");
-            System.out.println("3. Check Balance");
-            System.out.println("4. Exit");
+        // while (choice != 4) {
+        //     System.out.println("1. Deposit");
+        //     System.out.println("2. Withdraw");
+        //     System.out.println("3. Check Balance");
+        //     System.out.println("4. Exit");
 
-            choice = scanner.nextInt();
+        //     choice = scanner.nextInt();
 
-        }
+        // }
 
     }
 }
