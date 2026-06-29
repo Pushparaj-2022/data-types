@@ -2,12 +2,14 @@ import java.util.Scanner;
 
 public class loops {
     public static void main(String[] args) {
-        // int i = 0;
+        int i = 0;
 
-        // while (i < 15) {
-        // System.out.println(i);
-        // i++;
-        // }
+        while (i <= 5) {
+        System.out.println(i);
+        i++;
+        }
+
+
         // int choice = 2;
         // Scanner scanner = new Scanner(System.in);
 
@@ -20,6 +22,9 @@ public class loops {
         //     choice = scanner.nextInt();
 
         // }
+
+
+        
 
     }
 }
