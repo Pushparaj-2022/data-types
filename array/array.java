@@ -16,14 +16,22 @@ public class array {
         // System.out.println(cars[x]);
         // }
 
-        int[] num = { 1, 5, 10, 20, 30 };
-        int sum = 0;
-        for (int x = 0; x < num.length; x++) {
-            sum += num[x];
+        // int[] num = { 1, 5, 10, 20, 30 };
+        // int sum = 0;
+        // for (int x = 0; x < num.length; x++) {
+        // sum += num[x];
 
+        // }
+
+        // System.out.println(sum);
+
+
+        // for each loop..................
+        String[] cars = { "Tata", "Mahindra", "Tesla", "Toyota", "Skoda", "BMV" };
+
+        for (String car : cars) {
+            System.out.println(car);
         }
-
-        System.out.println(sum);
 
     }
 }
