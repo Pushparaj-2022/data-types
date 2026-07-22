@@ -27,11 +27,11 @@ public class array {
 
 
         // for each loop..................
-        String[] cars = { "Tata", "Mahindra", "Tesla", "Toyota", "Skoda", "BMV" };
+        // String[] cars = { "Tata", "Mahindra", "Tesla", "Toyota", "Skoda", "BMV" };
 
-        for (String car : cars) {
-            System.out.println(car);
-        }
+        // for (String car : cars) {
+        //     System.out.println(car);
+        // }
 
     }
 }
