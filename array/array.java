@@ -32,15 +32,26 @@ public class array {
         // System.out.println(car);
         // }
 
+        // int[] ages = { 20, 22, 18, 35, 48, 26, 87, 70 };
+
+        // float avg, sum = 0;
+
+        // int length = ages.length;
+        // for (int i = 0; i < length; i++) {
+        // sum += ages[i];
+        // }
+        // avg = sum / length;
+        // System.out.println("The average of the ages is " + avg);
+
         int[] ages = { 20, 22, 18, 35, 48, 26, 87, 70 };
 
-        float avg, sum = 0;
-
-        int length = ages.length;
-        for (int i = 0; i < length; i++) {
-            sum += ages[i];
+        int lowest =ages[0];
+        for (int age : ages){
+            if (age < lowest){
+                lowest = age;
+            }
         }
-        avg = sum / length;
-        System.out.println("The average of the ages is " + avg);
+        System.out.println("The lowest age is " + lowest);
+
     }
 }
