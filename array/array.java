@@ -43,15 +43,28 @@ public class array {
         // avg = sum / length;
         // System.out.println("The average of the ages is " + avg);
 
-        int[] ages = { 20, 22, 18, 35, 48, 26, 87, 70 };
+        // int[] ages = { 20, 22, 18, 35, 48, 26, 87, 70 };
 
-        int lowest =ages[0];
-        for (int age : ages){
-            if (age < lowest){
-                lowest = age;
+        // int lowest =ages[0];
+        // for (int age : ages){
+        // if (age < lowest){
+        // lowest = age;
+        // }
+        // }
+        // System.out.println("The lowest age is " + lowest);
+
+
+        // loop to to skip negative numbers
+        int[] num = { 1, 2, 3, -1, -2, 0, 4, 5, 6 };
+        for (int n : num) {
+            if (n < 0) {
+                continue;
             }
+            if (n == 0) {
+                break;
+            }
+            System.out.println(n);
         }
-        System.out.println("The lowest age is " + lowest);
-
+        
     }
 }
