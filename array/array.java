@@ -66,22 +66,26 @@ public class array {
         // }
 
         // track highest and lowest value in an array
-        // int[] num = { 20, 34, 55, 68, 35, 78, 90, 45, 74, 88, 37, 95, 127, 46, 34, 30 };
+        // int[] num = { 20, 34, 55, 68, 35, 78, 90, 45, 74, 88, 37, 95, 127, 46, 34, 30
+        // };
 
         // int max = num[0];
         // int min = num[0];
         // for (int n : num) {
-        //     if (n > max) {
-        //         max = n;
-        //     }
-        //     if (n < min) {
-        //         min = n;
-        //     }
+        // if (n > max) {
+        // max = n;
+        // }
+        // if (n < min) {
+        // min = n;
+        // }
 
         // }
         // System.out.println("the max " + max + " and the min is " + min);
- 
 
+        // multidimenstional array
+
+        int[][] num = { { 1, 2, 3, 4 }, { 2, 5, 6, 9 } };
+        System.out.println(num[0][1]);
 
     }
 }
