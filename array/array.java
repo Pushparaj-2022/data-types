@@ -84,13 +84,16 @@ public class array {
 
         // multidimenstional array
 
-        int[][] num = { { 1, 2, 3, 4 }, { 5, 6, 7, 8, 9, 0} };
-        // System.out.println(num[0][1]);
-        for (int[] n : num) {
-            for (int x : n) {
-                System.out.println(x);
-            }
-        }
+        // int[][] num = { { 1, 2, 3, 4 }, { 5, 6, 7, 8, 9, 0} };
+        // // System.out.println(num[0][1]);
+        // for (int[] n : num) {
+        //     for (int x : n) {
+        //         System.out.println(x);
+        //     }
+        // }
+
+// ========================  array completed =========================
+
 
     }
 }
