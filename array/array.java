@@ -80,6 +80,7 @@ public class array {
 
         // }
         // System.out.println("the max " + max + " and the min is " + min);
+ 
 
 
     }
