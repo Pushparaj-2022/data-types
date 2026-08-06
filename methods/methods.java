@@ -1,6 +1,7 @@
 package methods;
 
 public class methods {
+    // call method 
     static void hw() {
         System.out.println("Hello Wolrd");
     }
