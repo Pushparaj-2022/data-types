@@ -26,9 +26,16 @@ public class methods {
 
 
 
+static void family(String fname){
+    System.out.println(fname + "pakkiri");
 
+}
 
-
+public static void main(String[] args){
+    family("bom ");
+    family("pattasu ");
+    family("parava ");
+}
 
 
 
