@@ -13,18 +13,16 @@ public class methods {
     // }
 
 
-    // Method with parameters
-    static void greet(String name) {
-        System.out.println("Hello" + name);
-    }
+    // // Method with parameters
+    // static void greet(String name) {
+    //     System.out.println("Hello" + name);
+    // }
 
-    public static void main(String[] args) {
-        greet(" bom pakkri");
-        greet(" pattasu Balu");
-        greet(" parava vavaal");
-    }
-
-
+    // public static void main(String[] args) {
+    //     greet(" bom pakkri");
+    //     greet(" pattasu Balu");
+    //     greet(" parava vavaal");
+    // }
 
 
 
@@ -32,5 +30,7 @@ public class methods {
 
 
 
-    
+
+
+
 }
