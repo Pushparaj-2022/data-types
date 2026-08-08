@@ -12,32 +12,26 @@ public class methods {
     // hw();
     // }
 
-
     // // Method with parameters
     // static void greet(String name) {
-    //     System.out.println("Hello" + name);
+    // System.out.println("Hello" + name);
     // }
 
     // public static void main(String[] args) {
-    //     greet(" bom pakkri");
-    //     greet(" pattasu Balu");
-    //     greet(" parava vavaal");
+    // greet(" bom pakkri");
+    // greet(" pattasu Balu");
+    // greet(" parava vavaal");
     // }
 
+    static void family(String fname, int age) {
+        System.out.println(fname + "pakkiri age is " + age);
 
+    }
 
-static void family(String fname){
-    System.out.println(fname + "pakkiri");
-
-}
-
-public static void main(String[] args){
-    family("bom ");
-    family("pattasu ");
-    family("parava ");
-}
-
-
-
+    public static void main(String[] args) {
+        family("bom ", 40);
+        family("pattasu ", 35);
+        family("parava ", 28);
+    }
 
 }
