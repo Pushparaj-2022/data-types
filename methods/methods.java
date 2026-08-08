@@ -23,15 +23,31 @@ public class methods {
     // greet(" parava vavaal");
     // }
 
-    static void family(String fname, int age) {
-        System.out.println(fname + "pakkiri age is " + age);
+    // static void family(String fname, int age) {
+    // System.out.println(fname + "pakkiri age is " + age);
 
+    // }
+
+    // public static void main(String[] args) {
+    // family("bom ", 40);
+    // family("pattasu ", 35);
+    // family("parava ", 28);
+    // }
+
+
+    // methods with if else statement.....................
+    static void checkAge(int age) {
+        if (age < 18) {
+            System.out.println("Access Denied You're not authorized");
+        } else {
+            System.out.println("Access Granted");
+        }
     }
 
     public static void main(String[] args) {
-        family("bom ", 40);
-        family("pattasu ", 35);
-        family("parava ", 28);
+        checkAge(20);
+        checkAge(17);
     }
+
 
 }
