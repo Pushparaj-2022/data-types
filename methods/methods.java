@@ -50,15 +50,25 @@ public class methods {
 
     // return value .....................
 
-    static int add(int x) {
-        return x + 5;
+    // static int add(int x) {
+    //     return x + 5;
 
-    }
+    // }
 
-    public static void main(String[] args) {
-        System.out.println(add(5));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(add(5));
+    // }
+
+static int add(){
+    return 5+5;
+
+}
 
 
-    
+
+public static void main(String[] args){
+    int result =add();
+    System.out.println(result);
+}
+
 }
