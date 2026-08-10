@@ -51,24 +51,34 @@ public class methods {
     // return value .....................
 
     // static int add(int x) {
-    //     return x + 5;
+    // return x + 5;
 
     // }
 
     // public static void main(String[] args) {
-    //     System.out.println(add(5));
+    // System.out.println(add(5));
     // }
 
-static int add(){
-    return 5+5;
+    // static int add() {
+    // return 5 + 5;
 
-}
+    // }
 
+    // public static void main(String[] args) {
+    // int result = add();
+    // System.out.println(result);
+    // }
 
+    // Methods with for loop
 
-public static void main(String[] args){
-    int result =add();
-    System.out.println(result);
-}
+    static int doubleGame(int x) {
+        return x * 2;
+    }
+
+    public static void main(String[] args) {
+        for (int i = 1; i < 5; i++) {
+            System.out.println(i + " is " + doubleGame(i));
+        }
+    }
 
 }
