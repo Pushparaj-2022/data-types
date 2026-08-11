@@ -71,14 +71,16 @@ public class methods {
 
     // Methods with for loop
 
-    static int doubleGame(int x) {
-        return x * 2;
-    }
+    // static int doubleGame(int x) {
+    //     return x * 2;
+    // }
 
-    public static void main(String[] args) {
-        for (int i = 1; i < 5; i++) {
-            System.out.println(i + " is " + doubleGame(i));
-        }
-    }
+    // public static void main(String[] args) {
+    //     for (int i = 1; i < 5; i++) {
+    //         System.out.println(i + " is " + doubleGame(i));
+    //     }
+    // }
 
+
+    
 }
