@@ -82,5 +82,22 @@ public class methods {
     // }
 
 
+
+
+    static int method(int x, int y){
+        return x +y;
+    }
+
+    static double method(double x, double y){
+        return x+y;
+    }
+
+    public static void main(String[] args){
+        int num1 = method(5, 5);
+        double num2 = method(5.9, 4.5);
+        System.out.println(num1);
+        System.out.println(num2);
+    }
+
     
 }
