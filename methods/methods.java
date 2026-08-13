@@ -100,7 +100,8 @@ public class methods {
 
 
 
-    // java recursion
+    // java recursion method
+
 
     public static int sum(int x) {
         if (x > 0) {
