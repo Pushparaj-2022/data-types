@@ -98,6 +98,10 @@ public class methods {
     // System.out.println(num2);
     // }
 
+
+
+    // java recursion
+
     public static int sum(int x) {
         if (x > 0) {
             return x + sum(x - 1);
