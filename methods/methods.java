@@ -98,25 +98,31 @@ public class methods {
     // System.out.println(num2);
     // }
 
-
-
     // java recursion method
 
-
     // public static int sum(int x) {
-    //     if (x > 0) {
-    //         return x + sum(x - 1);
-    //     } else {
-    //         return 0;
-    //     }
+    // if (x > 0) {
+    // return x + sum(x - 1);
+    // } else {
+    // return 0;
+    // }
     // }
 
     // public static void main(String[] args) {
-    //     int result = sum(10);
-    //     System.out.println(result);
+    // int result = sum(10);
+    // System.out.println(result);
     // }
 
+    // count town with recursion
 
+    static void count(int x) {
+        if (x > 0) {
+            System.out.println(x + "");
+            count(x - 1);
+        }  
+    }
 
-    
+    public static void main(String[] args) {
+        count(5);
+    }
 }
