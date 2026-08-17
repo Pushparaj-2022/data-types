@@ -141,4 +141,22 @@ public class methods {
         System.out.println(factorial(5));
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
