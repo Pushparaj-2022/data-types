@@ -116,90 +116,29 @@ public class methods {
     // countown with recursion
 
     // static void count(int x) {
-    //     if (x > 0) {
-    //         System.out.println(x + "");
-    //         count(x - 1);
-    //     }  
+    // if (x > 0) {
+    // System.out.println(x + "");
+    // count(x - 1);
+    // }
     // }
 
     // public static void main(String[] args) {
-    //     count(5);
+    // count(5);
     // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // factorial with reursion....................
+
+    public static int factorial(int x) {
+        if (x > 1) {
+            return x * factorial(x - 1);
+
+        } else {
+            return 1;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(factorial(5));
+    }
 
 }
