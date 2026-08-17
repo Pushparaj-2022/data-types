@@ -113,16 +113,93 @@ public class methods {
     // System.out.println(result);
     // }
 
-    // count town with recursion
+    // countown with recursion
 
-    static void count(int x) {
-        if (x > 0) {
-            System.out.println(x + "");
-            count(x - 1);
-        }  
-    }
+    // static void count(int x) {
+    //     if (x > 0) {
+    //         System.out.println(x + "");
+    //         count(x - 1);
+    //     }  
+    // }
 
-    public static void main(String[] args) {
-        count(5);
-    }
+    // public static void main(String[] args) {
+    //     count(5);
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
