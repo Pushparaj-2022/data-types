@@ -16,13 +16,14 @@
 
 public class Objects {
     int x = 5;
-    int y = 10;
+    // int y = 10;
 
     public static void main(String[] args) {
         Objects obj = new Objects();
-        obj.x = 10;
+        Objects obj1 = new Objects();
+        obj1.x = 40;
         System.out.println(obj.x);
-        System.out.println(obj.y);
+        System.out.println(obj1.x);
 
     }
 
