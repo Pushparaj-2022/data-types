@@ -20,6 +20,7 @@ public class Objects {
 
     public static void main(String[] args) {
         Objects obj = new Objects();
+        obj.x = 10;
         System.out.println(obj.x);
         System.out.println(obj.y);
 
