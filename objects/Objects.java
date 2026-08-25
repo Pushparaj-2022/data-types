@@ -27,17 +27,27 @@ public class Objects {
 
     // }
 
-
-
     // multiple attributes.................
 
-    String fname = "Bomb ";
-    String lname = "Pakkiri ";
-    int Age = 45;
+    // String fname = "Bomb ";
+    // String lname = "Pakkiri ";
+    // int Age = 45;
+
+    // public static void main(String[] args) {
+    // Objects obx = new Objects();
+    // System.out.println("The MC name is " + obx.fname + obx.lname + "and his age
+    // is " + obx.Age);
+    // }
+
+    // java class methods..................
+
+    static void myMethod() {
+        System.out.println("Hello World !");
+
+    }
 
     public static void main(String[] args) {
-        Objects obx = new Objects();
-        System.out.println("The MC name is " + obx.fname + obx.lname + "and his age is " + obx.Age);
+        myMethod();
     }
 
 }
