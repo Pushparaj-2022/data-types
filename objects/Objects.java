@@ -42,23 +42,28 @@ public class Objects {
     // java class methods..................
 
     // static void myMethod() {
-    //     System.out.println("Hello World !");
+    // System.out.println("Hello World !");
 
     // }
 
     // public static void main(String[] args) {
-    //     myMethod();
+    // myMethod();
     // }
 
+    // Access methods with objects ..................
 
+    public static void fullThrottle(String dumil) {
+        System.out.println("The car is goind on full throttle" + dumil);
+    }
 
+    public static void speed(int maxspeed) {
+        System.out.println("The car speed is 200km/p " + maxspeed);
+    }
 
+    public static void main(String[] args) {
+        Objects myob = new Objects();
+        myob.fullThrottle(" bom pakkiri");
+        myob.speed(200);
+    }
 
-
-
-
-
-
-
-    
 }
