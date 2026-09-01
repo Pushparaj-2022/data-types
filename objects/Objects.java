@@ -52,13 +52,13 @@ public class Objects {
 
     // Access methods with objects ..................
 
-    public static void fullThrottle(String dumil) {
-        System.out.println("The car is goind on full throttle" + dumil);
-    }
+    // public static void fullThrottle(String dumil) {
+    //     System.out.println("The car is goind on full throttle" + dumil);
+    // }
 
-    public static void speed(int maxspeed) {
-        System.out.println("The car speed is 200km/p " + maxspeed);
-    }
+    // public static void speed(int maxspeed) {
+    //     System.out.println("The car speed is 200km/p " + maxspeed);
+    // }
 
   
 

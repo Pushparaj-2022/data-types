@@ -8,10 +8,10 @@ public class Second {
 
     // }
     // }
-    public static void main(String[] args) {
-        Objects myob = new Objects();
-        myob.fullThrottle(" bom pakkiri");
-        myob.speed(200);
-    }
+    // public static void main(String[] args) {
+    //     Objects myob = new Objects();
+    //     myob.fullThrottle(" bom pakkiri");
+    //     myob.speed(200);
+    // }
 
 }
