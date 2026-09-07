@@ -53,18 +53,22 @@ public class Objects {
     // Access methods with objects ..................
 
     // public static void fullThrottle(String dumil) {
-    //     System.out.println("The car is goind on full throttle" + dumil);
+    // System.out.println("The car is goind on full throttle" + dumil);
     // }
 
     // public static void speed(int maxspeed) {
-    //     System.out.println("The car speed is 200km/p " + maxspeed);
+    // System.out.println("The car speed is 200km/p " + maxspeed);
     // }
 
-  
+    int x;
 
+    public Objects() {
+         x = 5;
+    }
 
-
-
-
+    public static void main(String[] args) {
+        Objects myob = new Objects();
+        System.out.println(myob.x);
+    }
 
 }
