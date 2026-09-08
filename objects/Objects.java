@@ -60,15 +60,15 @@ public class Objects {
     // System.out.println("The car speed is 200km/p " + maxspeed);
     // }
 
-    int x;
+    // int x;
 
-    public Objects() {
-         x = 5;
-    }
+    // public Objects() {
+    //      x = 5;
+    // }
 
-    public static void main(String[] args) {
-        Objects myob = new Objects();
-        System.out.println(myob.x);
-    }
+    // public static void main(String[] args) {
+    //     Objects myob = new Objects();
+    //     System.out.println(myob.x);
+    // }
 
 }
