@@ -63,12 +63,27 @@ public class Objects {
     // int x;
 
     // public Objects() {
-    //      x = 5;
+    // x = 5;
     // }
 
     // public static void main(String[] args) {
-    //     Objects myob = new Objects();
-    //     System.out.println(myob.x);
+    // Objects myob = new Objects();
+    // System.out.println(myob.x);
     // }
+
+    // constructor parameters............................
+
+    int x;
+
+    public Objects(int y) {
+        x = y;
+    }
+
+    public static void main(String[] args) {
+        Objects ob = new Objects(5);
+        Objects ob1 = new Objects(15);
+        System.out.println(ob.x);
+        System.out.println(ob1.x);
+    }
 
 }
