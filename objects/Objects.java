@@ -73,17 +73,32 @@ public class Objects {
 
     // constructor parameters............................
 
-    int x;
+    // int x;
 
-    public Objects(int y) {
-        x = y;
+    // public Objects(int y) {
+    // x = y;
+    // }
+
+    // public static void main(String[] args) {
+    // Objects ob = new Objects(5);
+    // Objects ob1 = new Objects(15);
+    // System.out.println(ob.x);
+    // System.out.println(ob1.x);
+    // }
+
+    int modelyear;
+    String modelname;
+
+    public Objects(int year, String name) {
+        modelyear = year;
+        modelname = name;
     }
 
     public static void main(String[] args) {
-        Objects ob = new Objects(5);
-        Objects ob1 = new Objects(15);
-        System.out.println(ob.x);
-        System.out.println(ob1.x);
+        Objects car = new Objects(2001, "Ford Mustang");
+        Objects car1 = new Objects(1999, "TATA");
+        System.out.println(car.modelyear + " " + car.modelname);
+        System.out.println(car1.modelyear + " " + car1.modelname);
     }
 
 }
