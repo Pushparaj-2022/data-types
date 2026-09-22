@@ -86,19 +86,32 @@ public class Objects {
     // System.out.println(ob1.x);
     // }
 
-    int modelyear;
-    String modelname;
+    // int modelyear;
+    // String modelname;
 
-    public Objects(int year, String name) {
-        modelyear = year;
-        modelname = name;
+    // public Objects(int year, String name) {
+    // modelyear = year;
+    // modelname = name;
+    // }
+
+    // public static void main(String[] args) {
+    // Objects car = new Objects(2001, "Ford Mustang");
+    // Objects car1 = new Objects(1999, "TATA");
+    // System.out.println(car.modelyear + " " + car.modelname);
+    // System.out.println(car1.modelyear + " " + car1.modelname);
+    // }
+
+    // java this keyword........................
+
+    int x;
+
+    public Objects(int x) {
+        this.x = x;
     }
 
     public static void main(String[] args) {
-        Objects car = new Objects(2001, "Ford Mustang");
-        Objects car1 = new Objects(1999, "TATA");
-        System.out.println(car.modelyear + " " + car.modelname);
-        System.out.println(car1.modelyear + " " + car1.modelname);
+        Objects ob = new Objects(10);
+        System.out.println(ob.x);
     }
 
 }
