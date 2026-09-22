@@ -103,15 +103,44 @@ public class Objects {
 
     // java this keyword........................
 
-    int x;
+    // int x;
 
-    public Objects(int x) {
-        this.x = x;
+    // public Objects(int x) {
+    // this.x = x;
+    // }
+
+    // public static void main(String[] args) {
+    // Objects ob = new Objects(10);
+    // System.out.println(ob.x);
+    // }
+
+    // constructor to constructor..............................
+
+    int modelyear;
+    String modelname;
+
+    // constructor one...............
+    public Objects(String modelname) {
+        this(2005, modelname);
+    }
+
+    // constructor two.........
+    public Objects(int modelyear, String modelname) {
+        this.modelyear = modelyear;
+        this.modelname = modelname;
+
+    }
+
+    // method to print object info ................
+    public void printinfo() {
+        System.out.println(modelname + " " + modelyear);
     }
 
     public static void main(String[] args) {
-        Objects ob = new Objects(10);
-        System.out.println(ob.x);
+        Objects car1 = new Objects(1995, "Ferrari");
+        Objects car2 = new Objects("Ford Mustang");
+        car1.printinfo();
+        car2.printinfo();
     }
 
 }
