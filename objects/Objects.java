@@ -116,31 +116,41 @@ public class Objects {
 
     // constructor to constructor..............................
 
-    int modelyear;
-    String modelname;
+    // int modelyear;
+    // String modelname;
 
-    // constructor one...............
-    public Objects(String modelname) {
-        this(2005, modelname);
-    }
+    // // constructor one...............
+    // public Objects(String modelname) {
+    // this(2005, modelname);
+    // }
 
-    // constructor two.........
-    public Objects(int modelyear, String modelname) {
-        this.modelyear = modelyear;
-        this.modelname = modelname;
+    // // constructor two.........
+    // public Objects(int modelyear, String modelname) {
+    // this.modelyear = modelyear;
+    // this.modelname = modelname;
 
-    }
+    // }
 
-    // method to print object info ................
-    public void printinfo() {
-        System.out.println(modelname + " " + modelyear);
-    }
+    // // method to print object info ................
+    // public void printinfo() {
+    // System.out.println(modelname + " " + modelyear);
+    // }
+
+    // public static void main(String[] args) {
+    // Objects car1 = new Objects(1995, "Ferrari");
+    // Objects car2 = new Objects("Ford Mustang");
+    // car1.printinfo();
+    // car2.printinfo();
+    // }
+
+    // javs encapsulation..........................
 
     public static void main(String[] args) {
-        Objects car1 = new Objects(1995, "Ferrari");
-        Objects car2 = new Objects("Ford Mustang");
-        car1.printinfo();
-        car2.printinfo();
+        Second myob = new Second();
+        
+        myob.setName("Bom Pakkiri");
+        System.out.println(myob.getName());
+
     }
 
 }

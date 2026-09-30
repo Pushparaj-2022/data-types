@@ -9,9 +9,19 @@ public class Second {
     // }
     // }
     // public static void main(String[] args) {
-    //     Objects myob = new Objects();
-    //     myob.fullThrottle(" bom pakkiri");
-    //     myob.speed(200);
+    // Objects myob = new Objects();
+    // myob.fullThrottle(" bom pakkiri");
+    // myob.speed(200);
     // }
+
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String newname) {
+        this.name = newname;
+    }
 
 }
