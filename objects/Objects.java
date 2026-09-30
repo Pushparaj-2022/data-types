@@ -145,12 +145,16 @@ public class Objects {
 
     // javs encapsulation..........................
 
-    public static void main(String[] args) {
-        Second myob = new Second();
+    // public static void main(String[] args) {
+    //     Second myob = new Second();
         
-        myob.setName("Bom Pakkiri");
-        System.out.println(myob.getName());
+    //     myob.setName("Bom Pakkiri");
+    //     System.out.println(myob.getName());
 
-    }
+    // }
+
+
+    
+
 
 }
