@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+
 
 // public class Objects {
 
@@ -155,6 +158,42 @@ public class Objects {
 
 
     
+//java package #scanner......................
+
+
+public static void  main(String[] args){
+    Scanner myob = new Scanner(System.in);
+    String userName;
+
+System.out.println("Enter Name: ");
+userName = myob.nextLine();
+
+
+System.out.println("User Name is " + userName);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
