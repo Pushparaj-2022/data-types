@@ -171,25 +171,25 @@ import java.util.Scanner;
 
   // java inheritance............................
 
-  class vehicle {
-    protected String brand = "Ford";
+  // class vehicle {
+  //   protected String brand = "Ford";
 
-    public void sound() {
-      System.out.println("rutu! tu! tu! tu! ");
-    }
-  }
+  //   public void sound() {
+  //     System.out.println("rutu! tu! tu! tu! ");
+  //   }
+  // }
 
-  class car extends vehicle {
-    private String modelName = "Mustang";
+  // class car extends vehicle {
+  //   private String modelName = "Mustang";
 
-    public static void main(String[] args) {
+  //   public static void main(String[] args) {
 
-      car mycar = new car();
-      mycar.sound();
-      System.out.println(mycar.brand + " " + mycar.modelName);
+  //     car mycar = new car();
+  //     mycar.sound();
+  //     System.out.println(mycar.brand + " " + mycar.modelName);
 
-    }
+  //   }
 
-  }
+  // }
 
 // }
